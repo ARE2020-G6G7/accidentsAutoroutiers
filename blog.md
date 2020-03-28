@@ -4,7 +4,7 @@
 
 ### Semaine 1
 #### Auteur F. Julien
-Ceci est mon travai
+Ceci est mon travail
 
 ### Semaine 2
 ### Semaine 3
