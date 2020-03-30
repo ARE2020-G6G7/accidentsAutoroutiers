@@ -15,16 +15,15 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Description synthétique du projet
 
-**Problématique : La variation du nombre d’heure d’éveil avant la conduite, influe-t-elle sur les accidents d’autoroute ?
-** 
+**Problématique : La variation du nombre d’heure d’éveil avant la conduite, influe-t-elle sur les accidents d’autoroute ?** 
 
-**Hypothèse principale :**
+**Hypothèse principale : Un sommeil de 7h suivi d’un temps d’éveil inférieur à une demi-journée est suffisant pour  réduire amplement le risque d’accident.**
 
 **Hypothèses secondaires :** 
 
-**Objectifs :**
+**Objectifs : Déterminer le nombre d’heures d'éveil maximal d’un conducteur avant la conduite, afin de minimiser les risques d’accidents, à  l’aide de plusieurs autres paramètres.**
 
-**Critère(s) d'évaluation :**
+**Critère(s) d'évaluation : Évaluer le taux d’accident sur autoroute en fonction du nombre d’heure d’éveil après un sommeil de 7 heures.**
 
 ## Présentation structurée des résultats
 
