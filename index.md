@@ -8,7 +8,7 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Présentation de l'équipe
 
-| ¯\_(ツ)_/¯ | ᕦ(ò_óˇ)ᕤ | ಠ_ಠ | ٩( 'ω' )و |
+| ᕕ( ᐛ )ᕗ | ᕦ(ò_óˇ)ᕤ | ಠ_ಠ | ٩( 'ω' )و |
 |-----|--|--|--|
 | S. Ménalie| A. Manel | F. Éric  | F. Julien  |
 
