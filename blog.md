@@ -16,6 +16,7 @@ Le coefficient d'accident au départ est de 1 pour un conducteur normal. Puis, i
 
 On se questionne sur comment manipuler les statistiques pour obtenir les coefficients multiplicateurs.
 On se retrouve donc à la semaine prochaine pour la suite de nos avancées !
+
 L'équipe vous souhaite un bon confinement :)
 
 Bonne journée
