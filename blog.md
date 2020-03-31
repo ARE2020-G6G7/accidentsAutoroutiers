@@ -5,6 +5,7 @@
 ### Semaine 1
 
 Bonjour a tous,
+
 A partir de ce jour, nous actualiserons chaque semaine le journal de l’aventure de notre projet.
 Pour le lancement de nos idées, nous avons commencé par l’établissement  de notre monde, nous avons d’abord  songer  à une matrice  (d au km x 3 voies) censée représenter une chaussée d'autoroute à 3 voies, dont les coefficients seraient 1 (risque faible), 2 (risque moyen) ou 3 (risque élevé). 
 
