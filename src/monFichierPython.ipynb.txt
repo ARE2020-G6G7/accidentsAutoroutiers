@@ -19,7 +19,7 @@ def eveil(e):
 
 def moment(m):
     """Number->Number"""
-    if (2<m and m<=5) or (13<m and m<=16): 
+    if (2<=m and m<=5) or (13<=m and m<=16): 
         return 5.6
     return 1
 
