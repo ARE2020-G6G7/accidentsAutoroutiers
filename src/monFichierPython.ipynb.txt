@@ -1,5 +1,6 @@
 def alcool(a):
-    """Number->Number"""
+    """Number->Number
+    hyp: a en g.L, a = 0.5, 0.8 ou 1.5 """
     if a==0.5:
         return 2
     elif a==0.8:
@@ -22,13 +23,13 @@ def moment(m):
         return 5.6
     return 1
 
-def Week(WE):
+def Week_End(WE):
     """bool->Number"""
     if WE==True:
         return 2.7
     return 1
     
-def voie1(a,e,m,WE,sexe):
+def voie_1(a,e,m,WE,sexe):
      """Number*int*str->Number*str"""
     #s:Number
     s=1
