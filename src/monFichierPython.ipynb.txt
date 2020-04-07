@@ -1,0 +1,34 @@
+def alcool(a):
+    """Number->Number"""
+    if a==0.5:
+        return 2
+    elif a==0.8:
+        return 10
+    elif a==1.5:
+        return 32
+    return 1
+
+def eveil(e):
+    """int->int"""
+    if e>=17 and e<21:
+        return alcool(0.5)
+    elif e>=21:
+        return alcool(0.8)
+    return 1
+
+def moment(m):
+    """Number->Number"""
+    if (2<m and m<=5) or (13<m and m<=16): 
+        return 5.6
+    return 1
+
+def Week(WE):
+    """bool->Number"""
+    if WE==True:
+        return 2.7
+    return 1
+    
+def voie1(a,e,m,WE,sexe):
+     """Number*int*str->Number*str"""
+    #s:Number
+    s=1
