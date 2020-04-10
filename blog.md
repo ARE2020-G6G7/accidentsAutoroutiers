@@ -24,6 +24,27 @@ Bonne journée
 #### Auteurs F. Julien et S. Ménalie
 
 ### Semaine 2
+Rebonjour à tous, 
+
+Nous revenons vers vous pour enfin alimenter le blog une semaine après!
+Bien que le début de notre projet a été difficile pour élaborer notre modélisation, nous avons finalement réussit à nous concrétiser un peu mieu la manière dont nous allons réaliser notre projet.
+
+Ainsi, nous présenterons un tableau composé d’un certain nombre de lignes qui variera en fonction des heures de conduites, ainsi que de 3 colonnes représentant chacune une voie de l’autoroute  auquel nous avions déjà songé la 1ere semaine.
+Il y aura un véhicule par voie et nous étudierons son risque d’accident avec le nombre d’heures d'éveil qui ne fera qu’augmenter. 
+Ainsi, notre tableau s’allongera verticalement jusqu’à ce qu’il y ait potentiellement un accident. 
+Par conséquent, notre autoroute aura une distance infinie. 
+
+Les valeurs de ce tableau seront sûrement  des coefficients qui représenteront le risque d’avoir un accident sur telle voie et à telle heure. Nous utiliserons des coefficients multiplicateurs qui seront de plus en plus importants en fonctions des différents paramètres. Mais nous sommes toujours dans la recherche d’information en % sur notre projet.
+
+Nous avons de même rédiger quelques codes python, ces codes permettant d’obtenir des coefficients multiplicateurs d’accidents en fonction des différents motifs ( temps d’éveil, alcoolémie, moment de la journée, week-end ou non et le sexe de la personne). 
+A partir de cela, nous parviendrons sans doute à rendre notre projet plus dynamique et plus étudiable!
+
+Nous espérons vous retrouver la semaine prochaine en forme pour de nouvelles aventures !
+
+L’équipe vous souhaite un bon confinement.
+
+#### Auteurs S. Ménalie et F. Julien  
+
 ### Semaine 3
 ### ...
 
