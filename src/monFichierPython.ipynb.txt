@@ -33,3 +33,20 @@ def voie_1(a,m,WE,sexe):
      """Number*int*str->Number*str"""
     #s:Number
     s=1
+    
+def jour(j):
+    """str->int"""
+    if j=='Lundi' or j=='lundi':
+        return 1
+    elif j=='Mardi' or j=='mardi':
+        return 2
+    elif j=='Mercredi' or j=='mercredi':
+        return 3
+    elif j=='Jeudi' or j=='jeudi':
+        return 4
+    elif j=='Vendredi' or j=='vendredi':
+        return 5
+    elif j=='Samedi' or j=='samedi':
+        return 6
+    elif j=="Dimanche" or j=="dimanche":
+        return 7
