@@ -46,6 +46,30 @@ L’équipe vous souhaite un bon confinement.
 #### Auteurs S. Ménalie et F. Julien  
 
 ### Semaine 3
-### ...
+Bonjour à tous, 
+
+Nous revoilà aujourd’hui pour la suite de notre journal.
+Nous avons décidé de diviser notre étude en 2 parties.
+Dans un premier temps, nous étudierons le nombre d’heure d’éveil maximal d’un conducteur à partir de l’hypothèse principale, en faisant varier nos différents paramètre, et ce, pour chaque voie. Dans un deuxième temps, nous répondrons à notre problématique, à partir des résultats précédents en faisant cette fois varier le nombre d’heure d'éveil avant la conduite, donc en prenant en compte la fatigue, 1er facteur d’accident.
+
+Nous avons donc rajouté des conditions initiales dans la première partie: l’exclusion du facteur de fatigue, de toute distraction par téléphone ou entourage, l’absence d’accident ou de chantier, une route en bonne état, un véhicule correct, un beau temps (pas d’intempérie).
+
+Concernant l’avancement du projet, nous avons commencé l’élaboration du code du risque d’accident global de la voie 1. Étant trop longue, nous avons décidé de le diviser en plusieurs codes, séparant chaque coefficient-paramètre.
+Souhaitant de même obtenir une certaine différence entre les 3 voies, soit un coefficient qui variera en fonction de la vitesse, facteur individuel à chaque voie, nous avons mené plusieurs recherches, mais ce fut en vain. Ainsi nous avons étudier la différence de mètres entre un obstacle présent à 200m et  la distance d'arrêt pour chacune des voies. Nous avons donc pu obtenir des rapports et donc des coefficients de risque d’accidents propre à chaque voie (164m/164m=1 pour la voie 1(à 60km/h), 164/100 = 1.64 voie 2(à 100 km/h) et 164/31= 5.2, voie 3(à 130 km/h)). 
+
+Nous avons de même défini le code du paramètre jour, utile pour la réinitialisation de l’heure à 0 et donc le risque d’accident en Week-End ou non. 
+Dernièrement, nous avons affiné le code de l’alcool, de manière à pouvoir y rentrer n’importe qu’elle valeur. Nous disposons ainsi aujourd’hui de code pour chacun de nos paramètres, qui nous reste plus qu’à appliquer sur nos voies. 
+Le corps du code de la Voie 1 reste cependant à finir et à améliorer/ diviser ingénieusement.
+Barrage pour l’avancée: nous réfléchissons toujours sur comment manier nos coefficients multiplicateurs pour simuler un accident.
+
+Merci d’avoir prêté attention à notre rédaction, 
+On se retrouve la semaine prochaine pour l’actualisation de notre projet.
+
+Sur ce, je vous souhaite une très bonne fin de semaine :) 
+
+#### Auteurs S. Ménalie et F. Julien 
+
+
+### Semaine 4
 
 <a href="index.html"> Retour à la page principale </a>
