@@ -29,10 +29,6 @@ def Week_End(WE):
         return 2.7
     return 1
     
-def voie_1(a,m,WE,sexe):
-     """Number*int*str->Number*str"""
-    #s:Number
-    s=1
     
 def jour(j):
     """str->int"""
