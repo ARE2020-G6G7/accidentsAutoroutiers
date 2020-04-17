@@ -1,13 +1,18 @@
-def alcool(a):
-    """Number->Number
-    hyp: a en g/L, a = 0.5, 0.8 ou 1.5 """
-    if a==0.5:
-        return 2
-    elif a==0.8:
-        return 10
-    elif a==1.5:
-        return 32
-    return 1
+def alcool (a):
+    """Number ->Number"""
+    #D:dict[Number:Number]
+    D={0.5:2, 0.8:10, 1.5:32}
+    #pre:Number
+    pre=0
+    #Min:Number
+    Min=1000
+    #k:Number
+    for k in D:
+        if  abs(a_bis-k)<Min:
+            Min=abs(a_bis-k)	    
+            pre=k
+    return a_bis*D[pre]/pre
+
 
 def eveil(e):
     """int->int"""
@@ -46,3 +51,41 @@ def jour(j):
         return 6
     elif j=="Dimanche" or j=="dimanche":
         return 7
+        
+        
+#BROUILLON à àméliorer, diviser
+def voie1(a,m,WE,sexe,j):                                            
+    “””Number*int*bool*str*int->
+    hyp: 0<m<=24, sexe=”femme” ou sexe=”homme”   “”””
+    #coeff:Number
+    coeff=1
+    #coeffalcool:Number
+    coeffalcool=1
+    #h:Number
+    h=m
+    #h1:Number   
+    h1=0
+    #r:int
+    r=1
+    while 
+        if tour>1:   #apres premiere h de conduite 
+             if alcool(a)>=1 and sexe==”homme”:  #genre du conducteur
+                   a=a - 0,125
+             elif alcool(a)>= 1:
+                   a= a - 0.0925  
+             coeffalcool=alcool(a) 
+
+            if jour(j)==5 and h==24:   #WE ou non
+                   WE= True
+            elif jour(j)==7 and h==24:
+                   WE= False
+            coeffWE=Week_End(WE)
+            
+            if (h-h1)%2==0:   #aire de repos obligatoire 20min
+                   h=h+(⅓)
+                   h1=(⅓)*r
+                   r=r+1
+      tour=tour+1
+      coeff=coeff*Week_End(WE)*moment(h)     
+      h=h+1
+
