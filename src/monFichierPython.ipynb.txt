@@ -5,13 +5,16 @@ def alcool (a):
     #pre:Number
     pre=0
     #Min:Number
-    Min=1000
+    Min=10000
+    if a==0:
+        return 1
     #k:Number
-    for k in D:
-        if  abs(a_bis-k)<Min:
-            Min=abs(a_bis-k)	    
-            pre=k
-    return a_bis*D[pre]/pre
+    else:
+        for k in D:
+           if  abs(a-k)<Min:
+               Min=abs(a-k)	    
+               pre=k
+        return a*D[pre]/pre
 
 
 def eveil(e):
@@ -88,4 +91,7 @@ def voie1(a,m,WE,sexe,j):
       tour=tour+1
       coeff=coeff*Week_End(WE)*moment(h)     
       h=h+1
+    return  tour  
+      
+      
 
