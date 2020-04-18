@@ -8,8 +8,8 @@ def alcool (a):
     Min=10000
     if a==0:
         return 1
-    #k:Number
     else:
+        #k:Number
         for k in D:
            if  abs(a-k)<Min:
                Min=abs(a-k)	    
