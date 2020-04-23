@@ -77,11 +77,14 @@ Sur ce, je vous souhaite une très bonne fin de semaine :)
 Bonjour tout le monde,
 
 Nous revoilà aujourd’hui pour la suite de l’actualité du projet! 
-Cette semaine, notre travail s’est concentré sur du codage et de la réflexion sur l’aboutissement du projet, nous n’avons donc pas énormément chose à communiquer sur le journal.
+Cette semaine, notre travail s’est concentré sur du codage et de la réflexion sur l’aboutissement du projet, nous n’avons donc pas énormément de choses à communiquer sur le journal.
+
 Nous avons cette semaine intensifié notre travail sur le code. Nous avons amélioré les codes de nos différents paramètres (alcool, éveil, coeff_alcool, moment, sexe, jour, coeff_par_voie et week) de manière à pouvoir  les coordonner et les ajouter dans le code global: voie_sans_fatigue qui est en cours. 
+
 Comme nous l’avons déjà dit, nous effectuerons de même, un second code global voie_avec_fatigue qui prendra en compte la fatigue, paramètre principal, qui sera appliqué au code voie_sans_fatigue.  
 Tout ceci nous permettra de répondre ingénieusement à notre objectif.
 Bien évidemment, tout ceci est en cours d’élaboration. 
+
 Nous réfléchissons toujours à la manipulation de nos résultats, chose pas très simple ٩(๑❛ᴗ❛๑)۶.  
 Pour la représentation des données obtenues, nous penchons pour un dictionnaire de type dict[str: tuple[Number,str,Number]], à l’image d’un tableau. Il aboutira à un graphique lentement mais sûrement!
 
