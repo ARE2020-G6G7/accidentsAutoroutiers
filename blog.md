@@ -90,6 +90,8 @@ En espérant que l’intelligence soit avec nous.
 
 A la prochaine chers lecteurs !
 
+#### Auteurs F. Julien et S. Ménalie
+
 
 ### Semaine 5
 
