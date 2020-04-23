@@ -85,7 +85,7 @@ Bien évidemment, tout ceci est en cours d’élaboration.
 Nous réfléchissons toujours à la manipulation de nos résultats, chose pas très simple ٩(๑❛ᴗ❛๑)۶.  
 Pour la représentation des données obtenues, nous penchons pour un dictionnaire de type dict[str: tuple[Number,str,Number]], à l’image d’un tableau. Il aboutira à un graphique lentement mais sûrement!
 
-Sur ce, je vous souhaite une bonne seconde moitié de semaine.
+Sur ce, nous vous souhaitons une bonne semaine.
 En espérant que l’intelligence soit avec nous.
 
 A la prochaine chers lecteurs !
