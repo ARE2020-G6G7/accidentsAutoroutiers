@@ -97,5 +97,27 @@ A la prochaine chers lecteurs !
 
 
 ### Semaine 5
+Cher lecteurs,
+
+Depuis un bon moment, nous n’avions pas réellement fait de progrès dû à un problème dans le code global. Donc, notre rythme de travail s’était atténué. Mais grâce à l’intervention de l’un de nos professeurs, nous avons pu résoudre notre problème, reprendre et continuer.
+Nous continuons à réaliser notre code global tout en essayant de l’optimiser.  Nous avons pris la décision de faire ressortir un tableau ainsi qu’un graphique si nous y arrivons.
+
+Notre code global cadré par une boucle while se bouclera par l’utilisation d’un random permettant de simuler un accident.
+Pour parvenir à l’élaboration du tableau, cela n’étant pas dans nos compétences, nous nous sommes aidé d’un cours Python du site openclassrooms.com .
+
+Pour l’instant, nous sommes en cours d’écriture d’un code pour le tableau qui prendra en compte les 3 voies avec l’indication du nombre d’heure d'éveil, des risques d’accident à chaque heure ainsi qu’une affirmation ou non de la réalisation de l’accident. Nous obtiendrons ces informations sous forme d’un tuple à la sortie du code global.
+
+Par ailleurs, nous pensons à diviser le code global en 3, une pour chaque voie, pour des raisons de complications dans la gestion du tableau.
+Par conséquent, nous approfondirons cette ultime étape de représentation des données dans l’espoir de clôturer le projet dans une  semaine et demie.
+
+Sur ce, nous vous remercions d’avoir prêté attention à notre étude, tout au long de son déroulement, on vous dit à la semaine prochaine pour la dernière rédaction de ce carnet de bord.
+
+Portez-vous bien et à bientôt ! 
+
+#### Auteurs F. Julien et S. Ménalie
+
+
+### Semaine 6
+
 
 <a href="index.html"> Retour à la page principale </a>
