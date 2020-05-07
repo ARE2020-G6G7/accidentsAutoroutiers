@@ -1,6 +1,15 @@
 # Les accidents d'autoroute sur le territoire français
 
-Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
+Les autoroutes, maillages de voies rapides reliant toutes les zones d’un territoire entre elles, constituent aujourd’hui un réel dynamisme pour la mobilité des personnes en accroissement constante.  Ces voies représentent de réelles avantages par son gain de temps pour les usagers et les bénéfices rapportés pour l’Etat.
+Or ces voies rapides ne sont pas sans défauts. Outre les coûts élevés, la sécurité des conducteurs est aussi un objectif majeur pour les services du réseau autoroutier. En effet, les accidents y sont fréquents, et ce, dû principalement à l’état et au comportement de l’individu.
+
+Nous avons donc choisi de nous concentrer sur ces accidents d’autoroutes. Nous avons étudié ce phénomène dans le but de déterminer le temps maximal qu’un individu peut tenir  dès la prise de l’autoroute, compté donc comme point départ. Partant d’une hypothèse suggérant que l’absence de fatigue était bénéfique pour la conduite, nous avons fait varier cela pour pimenter notre étude.
+Cette étude a pu être simulé grâce à  plusieurs paramètres influents dont principalement le sommeil représentant la fatigue, mais aussi d’autres, secondaires, tel que l’alcoolémie ou le moment de la journée. Nous avons enfin testé ceci sur trois voies différenciables par leur vitesse,  pour modéliser les résultats dans un tableau.
+
+Par conséquent, contrairement à nos attentes, les résultats que nous avons obtenu sont très nombreux et très précis. En effet, même avec un risque d’alcool assez élevé, les heures de conduite peuvent durer bien longtemps, et même aller jusqu’à la centaine si tous les aires de repos sont bien visités ! 
+La morale: chérissez chaque aire de repos que vous croisez ! Puis naviguez vers le bas pour découvrir en profondeur notre étude. 
+
+
 
 ## Highway accident on French territory
 
