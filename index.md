@@ -13,7 +13,16 @@ La morale: chérissez chaque aire de repos que vous croisez ! Puis naviguez vers
 
 ## Highway accident on French territory
 
-Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
+Motorways, a mesh of expressways linking all areas of a territory together, constitute nowadays a real dynamism for the mobility of people, which is constantly increasing.  These roads represent real advantages in terms of time savings for users and benefits for the State.
+However, these expressways are not without flaws. Besides the high costs, driver safety is also a major goal for the services of the motorway network. Accidents are frequent on motorways, mainly due to the condition and behaviour of the driver.
+
+Therefore, we have  chosen to focus on these motorway accidents. We have studied this phenomenon in order to determine the longest time a person can maintain as soon as he takes the motorway, counted as a starting point. Based on a assumption that suggests the absence of tiredness is beneficial for driving, we have varied this to spice up our work.
+This study could've been simulated thanks to several influential factors, mainly sleep, which represents fatigue, but also other, secondary indicators, like the blood alcohol level or the time of day. Finally, we tested this on three tracks, differentiable by their speed, to model the outcomes in a board.
+
+Therefore, unlike our expectations, the results we found are very abundant and very accurate. Indeed, even with a pretty high risk of alcohol, driving hours can last quite a long time, and even go up to a hundred if all the rest areas are well visited! 
+The moral: treasure every rest area you come across! Then navigate down to discover our thorough studies.
+
+
 
 ## Présentation de l'équipe
 
