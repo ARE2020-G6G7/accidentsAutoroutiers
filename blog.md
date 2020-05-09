@@ -120,15 +120,15 @@ Portez-vous bien et à bientôt !
 
 Bonjour à tous,
 
-Aujourd’hui nous actualisons ce journal une dernière fois avant le rendu du projet. A l’heure où nous écrivons, nous sommes finalement parvenu à terminer entièrement le projet. Nous avons finalement contourner l’idée de créer un tableau car cela nous ralentissait dans l’avancement de notre projet, car il présentait trop de complication au niveau du codage. Nous avons donc supprimé le code intermédiaire list_for_board pour aussitôt la remplacer avec list_for_graph.
-Nous nous sommes donc directement penché sur la création du graphique.
+Aujourd’hui nous actualisons ce journal une dernière fois avant le rendu du projet. A l’heure où nous écrivons, nous sommes finalement parvenu à terminer entièrement le projet. Nous avons finalement contourner l’idée de créer un tableau car cela nous ralentissait dans l’avancement de notre projet, car il présentait trop de complication au niveau du codage. Nous avons donc supprimé le code intermédiaire list_for_board pour aussitôt le remplacer avec list_for_graph.
+Nous nous sommes donc directement penchés sur la création du graphique.
 
-Finalement,l’un de nous a terminé des paragraphes incomplets nécessaires pour le site telle que l’introduction ou la présentation des choix.
+Finalement,l’un de nous a terminé des paragraphes incomplets nécessaires pour le site tel que l’introduction ou la présentation des choix.
 Et nous avons ainsi pu terminer le projet dans de bonnes conditions.
 
-Ce projet fût une bonne expérience en terme de communication entre les membres ayant participé continuellement au projet ainsi qu’en terme de découverte et d'approfondissement de nos connaissance: le thème de l’autoroute a été réellement une bonne idée car elle nous a permis de récolter des informations sans trop de difficultés. 
+Ce projet fût une bonne expérience en terme de communication entre les membres ayant participé continuellement au projet ainsi qu’en terme de découverte et d'approfondissement de nos connaissances: le thème de l’autoroute a été réellement une bonne idée car elle nous a permis de récolter des informations sans trop de difficultés. 
 
-D’autre part, l’utilisation d’un logiciel informatique tel que Python était non seulement à notre guise mais aussi à notre dépassement. Nous avons pu découvrir de nouveaux codages pour la création de tableaux ou de graphique.
+D’autre part, l’utilisation d’un logiciel informatique tel que Python était non seulement à notre guise mais aussi à notre dépassement. Nous avons pu découvrir de nouveaux codages pour la création de tableaux ou de graphiques.
 Tout cela nous a permis de générer des données aussi conformes que surprenantes. 
 
 Cela nous incite bien à continuer dans cette voie!  
