@@ -1,30 +1,32 @@
 # Les accidents d'autoroute sur le territoire français
 
 Les autoroutes, maillages de voies rapides reliant toutes les zones d’un territoire entre elles, constituent aujourd’hui un réel dynamisme pour la mobilité des personnes en accroissement constante.  Ces voies représentent de réelles avantages par son gain de temps pour les usagers et les bénéfices rapportés pour l’Etat.
+
 Or ces voies rapides ne sont pas sans défauts. Outre les coûts élevés, la sécurité des conducteurs est aussi un objectif majeur pour les services du réseau autoroutier. En effet, les accidents y sont fréquents, et ce, dû principalement à l’état et au comportement de l’individu.
 
-C'est pourquoi nous avons choisi de nous concentrer sur ces accidents d’autoroutes. Nous avons étudié ce phénomène afin de déterminer le temps maximal qu’un individu peut tenir  dès l'empreint de l’autoroute, compté donc comme point départ. Partant d’une hypothèse suggérant que l’absence de fatigue était bénéfique pour la conduite, nous avons fait varier cela pour pimenter notre étude.
+Nous avons donc choisi de nous concentrer sur ces accidents d’autoroutes. Nous avons étudié ce phénomène dans le but de déterminer le temps maximal qu’un individu peut tenir  dès la prise de l’autoroute, compté donc comme point départ. Partant d’une hypothèse suggérant que l’absence de fatigue était bénéfique pour la conduite, nous avons fait varier cela pour pimenter notre étude.
 
-Cette étude a pu être simulé grâce à  plusieurs paramètres influents dont principalement le sommeil représentant la fatigue, mais aussi d’autres, secondaires, tel que l’alcoolémie ou le moment de la journée. Nous avons enfin testé ceci sur trois voies différenciables par leur vitesse,  pour modéliser les résultats dans un tableau.
+Cette étude a pu être simulé grâce à  plusieurs paramètres influents dont principalement le sommeil représentant la fatigue, mais aussi d’autres, secondaires, tel que l’alcoolémie ou le moment de la journée. Nous avons enfin testé ceci sur trois voies différenciables par leur vitesse,  pour modéliser les résultats dans un graphique.
 
-Par conséquent, contrairement à nos attentes, les résultats que nous avons obtenu sont très nombreux et très précis. En effet, même avec un risque d’alcool assez élevé, les heures de conduite peuvent durer bien longtemps, et même aller jusqu’à la centaine si tous les aires de repos sont bien visités ! 
+Ainsi, contrairement à nos attentes, nous avons pu assister une augmentation presque démesurée des risques d’accidents allant même jusqu’au millier. Cette analyse est détaillé dans le paragraphe dédié à la présentation des choix. 
 
-La morale: chérissez chaque aire de repos que vous croisez ! Puis naviguez vers le bas pour découvrir en profondeur notre étude. 
+A présent, nous vous invitons à naviguer vers le bas pour découvrir en profondeur notre étude. Bonne aventure !
 
 
 
 ## Highway accident on French territory
 
 Motorways, a mesh of expressways linking all areas of a territory together, constitute nowadays a real dynamism for the mobility of people, which is constantly increasing.  These roads represent real advantages in terms of time savings for users and benefits for the State.
+
 However, these expressways are not without flaws. Besides the high costs, driver safety is also a major goal for the services of the motorway network. Accidents are frequent on motorways, mainly due to the condition and behaviour of the driver.
 
 Therefore, we have  chosen to focus on these motorway accidents. We have studied this phenomenon in order to determine the longest time a person can maintain as soon as he takes the motorway, counted as a starting point. Based on a assumption that suggests the absence of tiredness is beneficial for driving, we have varied this to spice up our work.
 
-This study has been simulated thanks to several influential factors, mainly sleep, which represents fatigue, but also other, secondary indicators, like the blood alcohol level or the time of day. Finally, we tested this on three tracks, differentiable by their speed, to model the outcomes in a board.
+This study could've been simulated thanks to several influential factors, mainly sleep, which represents fatigue, but also other, secondary indicators, like the blood alcohol level or the time of day. Finally, we tested this on three tracks, differentiable by their speed, to model the outcomes in a graph.
 
-Therefore, unlike our expectations, the results we found are very abundant and very accurate. Indeed, even with a pretty high risk of alcohol, driving hours can last quite a long time, and even go up to a hundred if all the rest areas are well visited! 
+Therefore, unlike our expectations, we were able to witness an almost disproportionate increase in the risk of accidents, even reaching up to a thousand. This analysis is detailed in the paragraph dedicated to the presentation of the choices. 
 
-The moral: treasure every rest area you come across! Then navigate down to discover our thorough studies.
+At this point, we invite you to navigate down to discover our study in deeper detail. Good luck!
 
 
 
@@ -49,7 +51,25 @@ The moral: treasure every rest area you come across! Then navigate down to disco
 
 ## Présentation structurée des résultats
 
-Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+Nous avons choisi de modéliser nos résultats à l’aide d’un graphique. Ce graphique illustre l’allure de trois courbes, une pour chaque voie, et ce, à partir des données des valeurs obtenues dans le dictionnaire ressortie de notre code global. 
+Nous avions pour objectif de créer aussi un tableau pour la représentation des données mais cela ayant compliqué notre travail informatique, nous avons directement poursuivi avec  le graphique qui était censé apparaître à l’aide du tableau.
+ 
+Ainsi, pour l’élaboration de ce graphique qui a pour abscisse le temps en heure et en ordonnée les coefficients multiplicateurs de risque d’accident à chaque heure, nous avons réalisé un code intermédiaire (list_for_graph) permettant de retranscrire en listes les données utiles du dictionnaire (temps et coefficients). 
+
+Pour en revenir au point départ de notre codage, soit aux multiples codes-outils que nous avons créer pour alimenter le code global, voici leur description.
+Chacun de nos paramètres-codes contribuant au code global renvoie tous des coefficients multiplicateurs de risques d’accidents qui varie en fonction de l’évolution des paramètres entrés.
+Les chiffres ressorties  de ces “sous-codes” sont appliqués à une donnée factuelle récupérée d’un tableau issue d’un site qui nous a été recueilli par un professeur, le tableau  indiquant le nombre d’accidents de route  pour telle année.
+Et ces chiffres obtenus des “sous-codes” sont renouvelés à chaque heure selon l’évolution des paramètres et variables.    
+Tout ce travail s’effectue dans le code global.
+
+Evidemment,  un accident n’étant pas réellement  prévisible dû au comportement du conducteur, l’accident est simulé par une fonction aléatoire (random) , et cela permettant de clôturer la boucle. Il en sort alors un dictionnaire répertoriant dans cet ordre, pour chaque voie, le nombre d’heure d’éveil (base de l’avancée du code global), le temps de conduite, le temps de repos, la liste contenant les risque d’accident enregistré à chaque heure, ainsi qu’une affirmation de la réalisation de l’accident ou non. Cette énumération est classée dans un tuple. 
+Ce dictionnaire, comme déclaré précédemment, nous a finalement servi de tableau lui-même, faute de compréhension du codage d’un tableau en python.
+
+Par conséquent, par brève analyse, nous pouvons affirmer  d’une part que les courbes ressorties de notre étude sont très aléatoires mais cela est attribuable. Effectivement, cela est dû à la fonction aléatoire qui régit la fonction globale. 
+Mais aussi, d’autre part, et cela reste bien la conclusion la plus flagrante, les coefficients apparaissant au cours de la boucle globale (qui n’est pas aléatoire) peut monter jusqu’à l’extrême comme par exemple  2413.95039375, deuxième et dernier risque ressortie lors d’un essai pour un conducteur de la voie 3 (110km/h) sobre et très fatigué, d’où la surprenante variation des courbes.  
+
+Ainsi, pour une simple conclusion moraliste, priorisez votre état et votre santé au reste pendant la conduite ! Soyez conscient de vous-même car les risques de vous retrouver invalides peuvent être extraordinairement élevés !  
+
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
