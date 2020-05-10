@@ -66,9 +66,11 @@ Evidemment,  un accident n’étant pas réellement  prévisible dû au comporte
 Ce dictionnaire, comme déclaré précédemment, nous a finalement servi de tableau lui-même, faute de compréhension du codage d’un tableau en python.
 
 Par conséquent, par brève analyse, nous pouvons affirmer  d’une part que les courbes ressorties de notre étude sont très aléatoires mais cela est attribuable. Effectivement, cela est dû à la fonction aléatoire qui régit la fonction globale. 
-Mais aussi, d’autre part, et cela reste bien la conclusion la plus flagrante, les coefficients apparaissant au cours de la boucle globale (qui n’est pas aléatoire) peut monter jusqu’à l’extrême comme par exemple  2413.95039375, deuxième et dernier risque ressortie lors d’un essai pour un conducteur de la voie 3 (110km/h) sobre et très fatigué, d’où la surprenante variation des courbes.  
+Mais aussi, d’autre part, et cela reste bien la conclusion la plus flagrante, les coefficients apparaissant au cours de la boucle globale (qui n’est pas aléatoire) peuvent monter jusqu’à l’extrême comme par exemple  2413.95039375, deuxième et dernier risque ressortie lors d’un essai pour un conducteur de la voie 3 (110km/h) sobre et très fatigué, d’où la surprenante variation des courbes.  
 
 Ainsi, pour une simple conclusion moraliste, priorisez votre état et votre santé au reste pendant la conduite ! Soyez conscient de vous-même car les risques de vous retrouver invalides peuvent être extraordinairement élevés !  
+
+Pour finir ce paragraphe, de notre point de vue analytique, nous pouvons affirmer que certes, les fruits de notre projet sont bels et bien réalistes grâce à l’utilisation d’un random, rendant notre travail plus subjectif, mais notre travail reste assez restreint par l’expérimentation de 3 conducteurs seulement qui se différencient par leur vitesse. Nous n’avons pas fait jouer le dépassement et bien d’autres critères tel que le changement de temps. En effet, nous n’avons pas voulu trop compliquer le travail en raisons de nos conditions de travail et de nos compétences. 
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
