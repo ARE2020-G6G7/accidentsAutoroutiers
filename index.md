@@ -70,7 +70,7 @@ Mais aussi, d’autre part, et cela reste bien la conclusion la plus flagrante, 
 
 Ainsi, pour une simple conclusion moraliste, priorisez votre état et votre santé au reste pendant la conduite ! Soyez conscient de vous-même car les risques de vous retrouver invalides peuvent être extraordinairement élevés !  
 
-Pour finir ce paragraphe, de notre point de vue analytique, nous pouvons affirmer que certes, les fruits de notre projet sont bels et bien réalistes grâce à l’utilisation d’un random, rendant notre travail plus subjectif, mais notre travail semble assez restreint par l’expérimentation de 3 conducteurs seulement qui se différencient par leur vitesse. Nous n’avons pas fait jouer le dépassement et le changement de temps. Mais cela est attribuable, en effet, nos conditions de travail actuelles et le manque de collaboration dans toute l'équipe en est la raison.
+Pour finir ce paragraphe, de notre point de vue analytique, nous pouvons affirmer que certes, les fruits de notre projet sont bels et bien réalistes grâce à l’utilisation d’un random, rendant notre travail plus subjectif, mais notre travail semble assez restreint par l’expérimentation de 3 conducteurs seulement qui se différencient par leur vitesse. Nous n’avons pas fait jouer le dépassement et le changement de temps. Mais cela est attribuable, en effet, nos conditions de travail actuelles et le manque de collaboration dans toute l'équipe en sont les raisons.
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
